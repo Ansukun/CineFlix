@@ -1,33 +1,30 @@
 import React from 'react'
 import "./footer.css"
+import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailIcon from '@material-ui/icons/Email';
 function footer() {
     return (
-        <div className = "footer-Div">
-            <section class="link">
-      <div class="logos">
-        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
-        <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
-      </div>
-      <div class="sub-links">
-        <ul>
-          <li><a href="#">Audio and Subtitles</a></li>
-          <li><a href="#">Audio Description</a></li>
-          <li><a href="#">Help Center</a></li>
-          <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Media Center</a></li>
-          <li><a href="#">Investor Relations</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Legal Notices</a></li>
-          <li><a href="#">Corporate Information</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-    </section>
+      <div className = "footer" >
+        <div className = "footer-logo">
+        <a href="https://www.w3schools.com"><InstagramIcon style ={{ color: "white", marginRight : 10 }}/></a>
+        <a href="https://www.facebook.com/"><FacebookIcon style={{ color: "white", marginRight : 10 }}/></a>
+        <a href="https://twitter.com/?lang=en"><TwitterIcon  style ={{ color: "white", marginRight : 10 }}/></a>
+        <a href="https://www.instagram.com/"><WhatsAppIcon style ={{ color: "white", marginRight : 10 }}/></a>
+        <a href="https://mail.google.com"><EmailIcon style ={{ color: "white", marginRight : 10 }}/></a>
         </div>
+        
+
+<div className = "copyright">
+  @copyright AnsukunGouda
+</div>
+
+
+    </div>
     )
 }
 
