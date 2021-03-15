@@ -21,13 +21,13 @@ https://cineflix-1324f.web.app/
 
 
 ## Implementation Highlights
- # Netflix clone made with advanced react, redux & firebase which uses redux thunk to asynchronously fetch movie data of over 30 thousand movies from Tmdb api. Features include, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages and an interactive UI replicated from  the original Cineflix app And Added a bonus feature og playing the corresponding trailers.
+ Netflix clone made with advanced react, redux & firebase which uses redux thunk to asynchronously fetch movie data of over 30 thousand movies from Tmdb api. Features include, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages and an interactive UI replicated from  the original Cineflix app And Added a bonus feature og playing the corresponding trailers.
 
 ## User Stories
-# Users can safely sign up and sign in, Email in enabled with firebase
-# Collections of popular movies and tvshows for recommendations
-# Movie and TV Pages dynamically generated for every single movie
-# inspired from netflix UI replicated with highly organized and advanced sass styling
-# Implement more features as a personal practice project
-# Add user profile data, profile picture and personal data setup
-# Added bonus feature of playing trailers
+ Users can safely sign up and sign in, Email in enabled with firebase
+ Collections of popular movies and tvshows for recommendations
+ Movie and TV Pages dynamically generated for every single movie
+ inspired from netflix UI replicated with highly organized and advanced sass styling
+ Implement more features as a personal practice project
+ Add user profile data, profile picture and personal data setup
+ Added bonus feature of playing trailers
