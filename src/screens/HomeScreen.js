@@ -24,7 +24,6 @@ function HomeScreen() {
             fetchUrl = { requests.fetchHorrorMovies}/>
             <Row title = "Romance Movies"
             fetchUrl = { requests.fetchRomanceMovies}/>
-            
             <Row title = "Documentries"
             fetchUrl = { requests.fetchDocumentaries}/>
             

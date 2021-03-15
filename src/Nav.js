@@ -29,11 +29,12 @@ function Nav() {
             <div className = "nav__contents">
             
             <img  className = "nav__logo"   onClick ={() => history.push("/")} src = {cinelfix} alt = "no"/>
+            <span   onClick ={() => history.push("/Tvscreen")} className = "tv__shows">Tv shows</span>
              <div className = "nav__avatar">
-              <Avatar   onClick ={() => history.push("/profile")}
-              src = {user.photoUrl} alt = ""/> 
-            
+                 <img className = "nav__avatar" onClick ={() => history.push("/profile")} src = "https://i.pinimg.com/736x/d2/b0/bf/d2b0bf0b5b31b1d36c7edfcaa93ff98c.jpg" />
+             
              </div>
+            
             </div>
 
             

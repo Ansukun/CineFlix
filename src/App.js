@@ -3,6 +3,7 @@ import { useDispatch, useSelector} from "react-redux"
 import './App.css';
 import HomeScreen from "./screens/HomeScreen"
 import LoginScreen from "./screens/LoginScreen"
+import TvScreen from "./screens/Tvscreen"
 import ProfileScreen from "./screens/ProfileScreen"
 import {auth} from "./firebase"
 import {logout,login, selectUser} from "./features/counter/userSlice"
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route path = "/profile">
              <ProfileScreen/>
+             </Route>
+             <Route path = "/Tvscreen">
+             <TvScreen/>
              </Route>
         </Switch>
         )

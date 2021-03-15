@@ -14,7 +14,7 @@
 
 .nav__contents{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .nav__logo{
@@ -35,6 +35,19 @@
     height: 30px;
     cursor: pointer;
 }
+
+.nav__avatar>img{
+    border-radius: 100%;
+}
 .nav__black{
     background-color: #111;
+}
+
+
+.tv__shows{
+    color: white;
+    font-weight: 1500;
+    margin-left: 190px;
+    margin-top: 7px;
+    cursor: pointer;
 }
